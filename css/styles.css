@@ -1,0 +1,141 @@
+/* Reset some default styles */
+body, h1, h2, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #27374D;
+  color: #DDE6ED;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Introduction section styles */
+#intro {
+  text-align: center;
+  padding: 40px 0;
+}
+
+#intro img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#intro h1 {
+  font-size: 32px;
+  color: #27374D;
+}
+
+/* Section styles */
+section {
+  background-color: #DDE6ED;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-size: 24px;
+  padding: 20px;
+  background-color: #27374D;
+  color: #fff;
+}
+
+section h3{
+  font-family:cursive;
+}
+/* Media queries */
+@media (max-width: 600px) {
+  #intro h1 {
+    font-size: 24px;
+  }
+
+  #intro img {
+    width: 150px;
+    height: 150px;
+  }
+
+  section h2 {
+    font-size: 20px;
+  }
+}
+
+#contact {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+#contact .container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#contact h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#contact form label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#contact form input[type="text"],
+#contact form input[type="email"],
+#contact form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+#contact form textarea {
+  height: 120px;
+}
+
+#contact form input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#contact form input[type="submit"]:hover {
+  background-color: #0056b3;
+}

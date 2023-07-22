@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Monisha's Personal Site</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="intro">
+    <div class="container">
+      <img src="images/moni-1.png" alt="Your Photo">
+      <h1>Monisha</h1>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hello, I'm Monisha, a dedicated 3rd-year Computer Application student with expertise in object-oriented programming
+        languages such as Python, Java, C++, Perl, and PHP. I am also proficient in front-end languages like HTML and
+        CSS, as well as widely used office suites such as Microsoft Office and LibreOffice. With a strong foundation in
+        version control systems like Git, I am currently expanding my skills in JavaScript and MySQL.</p>
+
+      <p>Throughout my academic journey, I have developed a deep passion for programming and problem-solving. I enjoy
+        leveraging my knowledge of object-oriented programming to create efficient and scalable solutions. I believe that
+        programming is not just about writing code but also about understanding the underlying problem and designing
+        elegant and maintainable solutions.</p>
+
+      <p>I am currently seeking opportunities to apply my knowledge in real-world scenarios. I am eager to contribute to
+        projects where I can utilize my skills and make a meaningful impact. I have a strong work ethic, excellent
+        teamwork abilities, and a commitment to continuous learning.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <!-- Your projects content goes here -->
+      <div class="project">
+        <h3>Snake Game</h3>
+        <p>Description: This code represents a basic Snake game implemented using the Turtle graphics library in Python.
+          The player controls a snake using arrow keys, and the snake moves around the screen, eating food and growing
+          longer. The game ends if the snake hits the wall or collides with its own tail.</p>
+        <p>View the project: <a href="link-to-snake-game">Snake Game</a></p>
+
+        <h3>Pong Game</h3>
+        <p>Description:This code implements a Pong game using Turtle graphics in Python. The objective is to move paddles
+           to hit the ball and prevent it from going past, while keeping track of the score. Challenges include paddle and
+           ball movement, collision detection, and score tracking.</p>
+        <p>View the project: <a href="link-to-pong-game">Pong Game</a> </p>
+
+        <h3>Birthday Wisher</h3>
+        <p>Description: This project is a birthday reminder and email sender script. It reads a CSV file containing birthdays
+           and sends personalized birthday emails to individuals whose birthday is today. It uses letter templates and
+           replaces the recipient's name in the email content.</p>
+        <p>View the project: <a href="link-to-birthday-wisher">Birthday Wisher</a> </p>
+
+        <h3>Pomodoro Timer</h3>
+        <p>Description: The project is a Pomodoro timer application built using Tkinter in Python. It helps users manage
+          their work and break sessions by following the Pomodoro technique. The timer alternates between work intervals,
+          short breaks, and long breaks, with visual and auditory cues.</p>
+        <p>View the project: <a href="link-to-pomodoro-timer">Pomodoro Timer</a> </p>
+
+        <h3>Quizzler App</h3>
+        <p>Description: This program creates a quiz, challenges users with questions, and provides a final score.
+          It requires Python programming skills and knowledge of classes and user interface design. The outcome is
+          the user's performance displayed as a final score.</p>
+        <p>View the project: <a href="link-to-quizzler-app">Quizzler App</a> </p>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Me Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+
+      <p>Feel free to reach out to me for any inquiries or collaborations.</p>
+      <form action="process_form.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <input type="submit" value="Send Message">
+    </form>
+    </div>
+  </section>
+</body>
+
+</html>
